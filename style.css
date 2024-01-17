@@ -566,22 +566,6 @@ video {
   margin: 2rem;
 }
 
-.m-auto {
-  margin: auto;
-}
-
-.m-12 {
-  margin: 3rem;
-}
-
-.m-24 {
-  margin: 6rem;
-}
-
-.m-20 {
-  margin: 5rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -634,10 +618,6 @@ video {
   gap: 1.5rem;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -687,18 +667,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .pt-24 {
@@ -833,9 +801,14 @@ li {
     border-radius: 0.75rem;
   }
 
-  .md\:bg-dsgrey {
+  .md\:bg-grey {
     --tw-bg-opacity: 1;
-    background-color: hsl(234 29% 20% / var(--tw-bg-opacity));
+    background-color: hsl(231 7% 60% / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-chgrey {
+    --tw-bg-opacity: 1;
+    background-color: hsl(235 18% 26% / var(--tw-bg-opacity));
   }
 
   .md\:bg-\[url\(\/assets\/images\/illustration-sign-up-desktop\.svg\)\] {

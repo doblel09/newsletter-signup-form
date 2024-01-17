@@ -7,6 +7,7 @@ module.exports = {
         primary: 'hsl(4, 100%, 67%)',
         dsgrey: 'hsl(234, 29%, 20%)',
         grey: 'hsl(231, 7%, 60%)',
+        chgrey: 'hsl(235, 18%, 26%)',
         activo: 'linear-gradient(90deg, rgba(203,85,150,1) 0%, rgba(255,52,38,1) 36%, rgba(255,57,43,1) 100%)'
       }
     },
