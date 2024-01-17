@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body class="font-Roboto md:bg-dsgrey">
+
+  <main class="flex h-screen md:justify-center md:items-center">
+<article id="first-article" class="flex flex-col w-full md:w-[54rem] bg-white md:flex-row md:p-4 md:rounded-xl">
+    <figure class="bg-[url(/assets/images/illustration-sign-up-mobile.svg)] min-w-[375px] md:bg-[url(/assets/images/illustration-sign-up-desktop.svg)] h-[35%] bg-no-repeat bg-full md:bg-desk md:grow md:h-[unset] md:order-2 md:basis-1/2">
+    </figure>
+  <section class="flex flex-col gap-6 p-6 md:order-1 md:p-12">
+  <h1 class="font-bold text-4xl">Stay updated!</h1>
+
+  <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
+<ul class="flex flex-col gap-4 mb-2">
+    <li>Product discovery and building what matters</li>
+    <li>Measuring to ensure updates are a success</li>
+    <li>And much more!</li>
+</ul>
+  
+  <form class="flex flex-col gap-4 relative">
+  <label class="font-bold" for="email">Email address</label><span class="invalid absolute hidden right-0 text-red-600 font-bold">Valid email required</span>
+  <input
+   id="correo" 
+   class="h-12 rounded-lg p-4 outline-0 border border-grey"
+   type="email" 
+   name="email" 
+   placeholder="email@company.com" required>
+
+  <button id="send" class="rounded-lg bg-dsgrey text-white p-4 activo">Subscribe to monthly newsletter</button>
+</form>
+</section>
+
+</article>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+<section id="success" class="bg-white hidden flex-col gap-8 m-8 pt-24 md:p-12 md:w-[28rem] rounded-xl">
+  <img src="assets/images/icon-success.svg" class="w-14" alt="success">
+  <h1 class="text-black text-5xl font-bold pt-6">Thanks for subscribing!</h1>
+
+  <p>A confirmation email has been sent to <strong id="emailconf"></strong>. 
+  Please open it and click the button inside to confirm your subscription.</p>
+
+  <a href="#" class="activo text-center mt-auto bg-dsgrey p-4 text-white rounded-lg">Dismiss message</a>
+</section>
+
+
+
+</main>
+  
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Luis Florentino</a>.
+</div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "newsletter-sign-up-with-success-message-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor]",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./design/input.css -o ./style.css --watch"
+  },
+  "keywords": [
+    "tailwind-css"
+  ],
+  "author": "Luis Florentino",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
